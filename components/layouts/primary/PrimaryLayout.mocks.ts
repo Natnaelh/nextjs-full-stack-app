@@ -1,13 +1,12 @@
+// import React from "react";
 import { IPrimaryLayout } from "./PrimaryLayout";
 
 const base: IPrimaryLayout = {
-    sampleTextProp: "Hello World"
+    children: ""
 }
 
-const alt: IPrimaryLayout = {
-    sampleTextProp: "Hello alt World"
-}
+
 
 export const mockPrimaryLayoutProps = {
-    base, alt
+    base,
 }
